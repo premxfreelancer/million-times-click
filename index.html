@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Million times click</title>
+    <style>
+        .header {
+           background-color: aqua; 
+           min-height: 20vh;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           font-size: 2rem;
+           text-align: center;
+        }
+       * {
+        padding: 0;
+        margin: 0;
+
+       } 
+       body {
+       height: 100%;
+       width: 100%;
+       }
+       html {
+      height: 100%;
+      width: 100%;
+       }
+       .imgcon {
+        height: 60vh;
+        width: 100%;
+        /* background: red; */
+        display: flex;
+           justify-content: center;
+           align-items: center;
+       }
+       .gift {
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        /* height: 100%; */
+height: 100%;
+       }  
+    .need {
+        text-align: center;
+    }   
+    </style>
+</head>
+<body onclick="myfunc()">
+    <div class="header">Click million times <br>to what is in the gift!</div>
+
+<div class="imgcon"><img src="gift.png" class="gift" alt="gift"></div>
+<div class="need" id="need"></div>
+<script src="script.js"></script>
+</body>
+</html>
